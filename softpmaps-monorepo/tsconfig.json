@@ -1,0 +1,28 @@
+{
+  "paths": {
+    "@softmaps/components/*": ["packages/components/**/*"],
+    "@softmaps/screens/*": ["packages/screens/**/*"],
+    "@softmaps/apps/*": ["apps/**/*"],
+    "@softmaps/home-app/*": ["apps/Home/**/*"],
+    "@softmaps/core/*": ["core/**/*"],
+    "@softmaps/utils/*": ["packages/utils/**/*"],
+    "@softmaps/*": ["packages/**/*"]
+  },
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}

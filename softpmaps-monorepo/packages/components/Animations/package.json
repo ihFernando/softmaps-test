@@ -1,0 +1,8 @@
+{
+  "name": "@softmaps/animations",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "peerDependencies": {
+    "styled-components": "*"
+  }
+}

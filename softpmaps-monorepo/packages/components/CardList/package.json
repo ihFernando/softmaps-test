@@ -1,0 +1,16 @@
+{
+  "name": "@softmaps/card-list",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "peerDependencies": {
+    "next/link": "*",
+    "typescript": "*",
+    "react": "*",
+    "react-dom": "*",
+    "styled-components": "*",
+    "@softmaps/components/animations": "*",
+    "@softmaps/components/grid": "*",
+    "@softmaps/components/card": "*",
+    "@softmaps/components/Typography": "*"
+  }
+}

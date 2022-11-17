@@ -1,0 +1,19 @@
+{
+  "name": "@softmaps/home",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "peerDependencies": {
+    "typescript": "*",
+    "react": "*",
+    "react-dom": "*",
+    "styled-components": "*",
+    "@softmaps/theme": "*",
+    "@softmaps/types": "*",
+    "@softmaps/components/grid": "*",
+    "@softmaps/components/search": "*",
+    "@softmaps/components/header": "*",
+    "@softmaps/components/card-list": "*",
+    "@softmaps/components/loader": "*",
+    "@softmaps/components/empty-state": "*"
+  }
+}

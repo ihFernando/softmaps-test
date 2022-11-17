@@ -1,0 +1,13 @@
+{
+  "name": "@softmaps/header",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "peerDependencies": {
+    "typescript": "*",
+    "next/link": "*",
+    "react": "*",
+    "react-dom": "*",
+    "styled-components": "*",
+    "@softmaps/components/Typography": "*"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@softmaps/search",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "dependencies": {
+    "@softmaps/input-text": "*"
+  },
+  "peerDependencies": {
+    "typescript": "*",
+    "react": "*",
+    "react-dom": "*",
+    "styled-components": "*",
+    "@softmaps/components/Typography": "*",
+    "@softmaps/components/button": "*"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@softmaps/home-app",
+  "version": "1.0.0",
+  "main": "index.tsx",
+  "dependencies": {
+    "@softmaps/utils": "1.0.0",
+    "@softmaps/screens": "1.0.0",
+    "@softmaps/components": "1.0.0",
+    "@softmaps/endpoints": "1.0.0"
+  },
+  "peerDependencies": {
+		"react": "*",
+		"react-dom": "*",
+    "styled-components": "*",
+    "redux": "*",
+    "redux-saga": "*",
+    "typesafe-actions": "*"
+	}
+}
