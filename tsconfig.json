@@ -1,0 +1,30 @@
+{
+  "extends": "./tsconfig.paths.json",
+  "compilerOptions": {
+    "isolatedModules": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "target": "esnext",
+    "jsx": "preserve",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+    "declaration": true
+  },
+  "include": ["**/*.d.ts", "src/react-app-env.d.ts", "src"],
+  "exclude": ["scripts", "config", "node_modules"]
+}

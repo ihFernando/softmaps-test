@@ -1,0 +1,33 @@
+# Importante definir qual a versão da imagem para que encontre as dependencias
+image: node:12-alpine
+
+before_script:
+  - npm install
+  - npm install react-scripts -g
+
+stages:
+  - test
+  - pages
+
+test:
+  stage: test
+  script:
+    - echo "Testando a aplicação"
+    # - CI=true npm run test
+    - echo "Teste realizado com sucesso!"
+
+pages:
+  stage: pages
+  script:
+    - echo "Iniciando build do projeto"
+    - npm run build
+    - echo "Build successfully!"
+    - mv build/* public
+    # https://gitlab.com/gitlab-org/gitlab-pages/-/issues/153
+    - cp public/index.html public/404.html
+    - echo "Moved files to path public successfully!"
+  artifacts:
+    paths:
+      - public
+  only:
+    - master

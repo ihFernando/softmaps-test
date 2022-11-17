@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@softmaps/components/*": ["./src/components/*"],
+      "@softmaps/layout/*": ["./src/layout/*"],
+      "@softmaps/types/*": ["./src/types/*"],
+      "@softmaps/services/*": ["./src/services/*"],
+      "@softmaps/utils/*": ["./src/utils/*"]
+    }
+  }
+}
